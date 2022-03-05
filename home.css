@@ -1,0 +1,289 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.header{
+   background-image: url("bill-stephan-9LkqymZFLrE-unsplash.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navigation-menu{
+        float: right;
+        list-style: none;
+        margin-top: 30px;   
+}
+.navigation-menu li{
+        display: inline-block;
+}
+.navigation-menu li a{
+        color: blue;
+        text-decoration: none;
+        padding: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;                     
+}
+.navigation-menu li a:hover{
+    border: 1px solid grey;
+    background-color: white;
+}
+.tagline{
+    
+    
+    margin-left: 0;
+    margin-top: 0;      
+    display:flex ;
+    flex-direction: column;
+    
+}
+h1{
+    color: rgb(247, 7, 227);
+    font: size 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 275px;
+    margin-left: 275px;           
+}
+.adopt{
+    margin-top: 30px;
+    margin-left: 540px;   
+}
+.bttn:hover{
+    background-color: white;   
+}
+.bttn{
+    border: 2px;
+    padding: 10px 30px;
+    color: rgb(247, 7, 227);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;    
+    margin-left: 275px;
+}
+.body{
+    color: rgb(247, 7, 227);
+    margin-top: -280px;
+}
+.header{
+    color: blue;
+}
+.about{
+    color: blue;
+    background-color: rgb(247, 7, 227);
+    padding: -75px;
+    margin-top: -280px;
+}
+.about h1{
+    color: blue;
+}
+.background{
+    background-image: url("bill-stephan-9LkqymZFLrE-unsplash.jpg");
+    /*height: 140vh;
+    background-size: cover;*/
+    background-position: center;
+}
+.breeds{
+    background-color: rgb(247, 7, 227);
+    margin-top: -280px;
+    text-align: center;
+}
+.breeds h1{
+    color: blue;
+}
+.breed{
+    background-image: url("pup.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    background-color: rgb(247, 7, 227);
+    margin-top: -260px;
+}
+.contact h1{
+    color: blue;
+}
+.contacts{
+    background-image: url('me.jpg');
+    height: 40vh;
+    background-size:cover;
+
+    background-position: center;
+}
+.adoption h1{
+    color: blue;
+    background-color: rgb(247, 7, 227);
+}
+.adopt{
+    background-image: url("bill-stephan-9LkqymZFLrE-unsplash.jpg");
+    /* height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin: 20px; */
+
+}
+.home{
+    background-image: url('p.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.pure{
+    color: blue;
+}
+.about-us{
+    color: blue;
+    font-size: 35px;
+    background-color: #000000;
+}
+.list{
+    color: blue;
+    background-color: #000000;
+}
+.buy:hover{
+    background-color: burlywood;
+}
+.buy{
+    border: 2px;
+    padding: 10px 30px;
+    color: rgb(158, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.form{
+    color: blue;
+}
+.footer .nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    nav-down: root;
+  }
+  
+  .footer .nav ul li {
+    margin-right: 15px;
+    color: rgb(247, 7, 227);
+    font-size: 20px;
+  }
+  .footer .nav ul li a:hover{
+    background-color: white;
+  }
+  .tagline h1{
+      margin-left: -400px;
+  }
+  
+  .top-bold{
+      margin-left: -1300px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.form{
+    
+    color: blue;
+    font-size: 21px;
+}
+
+#name,
+#breed,
+#town,
+#district,
+#email,
+#phone,
+#message,
+input{
+    width: 650px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#about-btn{
+    width: 90px;
+}
+
+.list-dog{
+
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.dog-div{
+    display: flex;
+    flex-direction: row;
+    padding-right: -60px;
+    justify-content: space-between;
+}
+
+#buy-btn{
+    margin-left: 650px;
+}
+
+.adoption{
+    background-color: blue;
+    margin-top: -271px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+#contact-label{
+    color: blue;
+}
+.p{
+    font-size: 30px;
+    color: blue;
+}
+.maria{
+    background-color:rgb(247, 7, 227) ;
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1050px;
+    position: absolute;
+    top: 80%;
+
+
+}
+.icon{
+    width: 46px;
+    height: 46px;
+    
+}
+.icon-p{
+    margin-bottom: 10px;
+    color: blue;
+}
+.enter{
+    margin-left: -920px;
+}
+.img-div h1{
+    margin-left: -100px;
+}
+.icon-p:hover{
+   background-color: white;   
+}
+.text{
+    color: blue;
+    font-size: 40px;
+
+}
